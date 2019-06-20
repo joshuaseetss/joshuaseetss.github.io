@@ -1,0 +1,17 @@
+/* my css */ 
+
+html, 
+body {
+    height: 100%;
+}
+
+/* #cover {
+    position: relative;
+    height: 100vh;
+    min-height: 500px;
+    max-height: 1080px;
+    background: url(../images/lead-bg.jpg);
+    background-size: cover;
+    padding: 15px;
+    overflow: hidden;
+} */
