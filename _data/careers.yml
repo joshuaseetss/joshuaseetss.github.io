@@ -1,0 +1,29 @@
+- name:
+    detail: Start-up Corri
+  desc:
+    detail: Develop a website for the start-up which aims to provide a platform for Home Businesses to advertise their services
+  date:
+    detail: Aug 2019 - Present
+  job:
+    detail: Product Developer
+  icon: fa-shopping-bag
+
+- name:
+    detail: BetterLife Pte Ltd 
+  desc:
+    detail: Worked on the development of the Healthzilla mobile application that helps one to track their stress levels from their phones and wearable devices. 
+  date:
+    detail: May 2019 - Aug 2019
+  job:
+    detail: Software Developer
+  icon: fa-heartbeat
+
+- name:
+    detail: One-Third Technologies 
+  desc:
+    detail: Worked on front-end implementation of mobile applications using the Ionic Framework.
+  date:
+    detail: Jan 2019 - April 2019
+  job:
+    detail: Front-End Developer
+  icon: fa-pencil-square

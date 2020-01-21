@@ -1,0 +1,29 @@
+- name: Java
+  percentage: 85
+
+- name: Javascript
+  percentage: 70
+
+- name: Angular / Ionic
+  percentage: 75
+
+- name: HTML
+  percentage: 85
+
+- name: CSS
+  percentage: 75
+
+- name: Javascript
+  percentage: 70
+
+- name: SQL
+  percentage: 65
+
+- name: NodeJS
+  percentage: 60
+
+- name: AWS
+  percentage: 70
+
+- name: React Native 
+  percentage: 60

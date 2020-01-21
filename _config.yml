@@ -1,0 +1,70 @@
+# Welcome to Jekyll!
+
+# Website settings
+title: "Joshua Seet"
+description: "Joshua's portfolio"
+keywords: "Joshua,java,javascript"
+baseurl: "/"
+url: "https://joshuaseetss.github.io"
+
+# author
+author:
+  name: 'Joshua Seet'
+  first_name: 'Joshua'
+  last_name: 'Seet'
+  email: 'joshu5797@gmail.com'
+  facebook_username: 'Joshua Seet'
+  github_username: 'joshuaseetss'
+  head_img: 'static/img/landing/photo.jpg'
+  desc: '
+  <p>
+   I am a Year 2 undergraduate majoring in Computer Science (with Honours) at the National University of Singapore.
+  </p>
+  <p>
+   I am an extremely motivated individual and my main objective is to gain new experiences. 
+  </p>
+  <p>
+    My interests are Soccer, Photography and Entrepreneurship. 
+  </p>
+  '
+
+# sections
+sections:
+  - id: 'about-me'
+    name: 'About'
+    tpl: 'about.html'
+    css: ''
+
+  - id: 'career'
+    name: 'Career'
+    tpl: 'career.html'
+    css: 'timeline'
+
+  - id: 'skills'
+    name: 'Skills'
+    tpl: 'skills.html'
+    css: 'team'
+
+  - id: 'projects'
+    name: 'Projects'
+    tpl: 'projects.html'
+    css: 'project'
+
+  - id: 'contact'
+    name: 'Contact'
+    tpl: 'contact.html'
+    css: 'contact'
+
+# # google analytics
+# ga:
+#   id: UA-73784599-1
+
+# Build settings
+encoding: "utf-8"
+
+# other settings
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

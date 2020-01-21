@@ -1,226 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Joshua Seet's Resume</title>
-	<link rel="stylesheet" href="styles.css">
-	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
-</head>
-<body>
+---
+layout: blog
+title: index
+permalink: /
+---
 
-<div class="resume">
-   <div class="resume_left">
-     <div class="resume_profile">
-       <img src="assets/me.jpg" alt="profile_pic">
-     </div>
-     <div class="resume_content">
-       <div class="resume_item resume_info">
-         <div class="title">
-           <p class="bold">joshua seet</p>
-           <p class="regular">undergraduate</p>
-         </div>
-         <ul>
-           <li>
-             <div class="icon">
-               <i class="fas fa-map-signs"></i>
-             </div>
-             <div class="data">
-               65 Choa chu kang loop <br /> Singapore 689670
-             </div>
-           </li>
-           <li>
-             <div class="icon">
-               <i class="fas fa-mobile-alt"></i>
-             </div>
-             <div class="data">
-               +65 98279212
-             </div>
-           </li>
-           <li>
-             <div class="icon">
-               <i class="fas fa-envelope"></i>
-             </div>
-             <div class="data">
-              <a> joshu5797@gmail.com </a> <br /> <a> joshua.seet@u.nus.edu </a>
-             </div>
-           </li>
-           <li>
-             <div class="icon">
-               <i class="fab fa-weebly"></i>
-             </div>
-             <div class="data">
-				<a> https://github.com/joshuaseetss </a>
-             </div>
-           </li>
-         </ul>
-       </div>
-       <div class="resume_item resume_skills">
-         <div class="title">
-           <p class="bold">skill's</p>
-         </div>
-         <ul>
-           <li>
-             <div class="skill_name">
-               ANGULAR / IONIC
-             </div>
-             <div class="skill_progress">
-               <span style="width: 80%;"></span>
-             </div>
-             <div class="skill_per">80%</div>
-           </li>
-           <li>
-             <div class="skill_name">
-				JAVASCRIPT
-             </div>
-             <div class="skill_progress">
-               <span style="width: 70%;"></span>
-             </div>
-             <div class="skill_per">70%</div>
-           </li>
-           <li>
-             <div class="skill_name">
-               JAVA
-             </div>
-             <div class="skill_progress">
-               <span style="width: 90%;"></span>
-             </div>
-             <div class="skill_per">90%</div>
-           </li>
-           <li>
-             <div class="skill_name">
-               NODEJS
-             </div>
-             <div class="skill_progress">
-               <span style="width: 60%;"></span>
-             </div>
-             <div class="skill_per">60%</div>
-           </li>
-           <li>
-             <div class="skill_name">
-               REACT NATIVE 
-             </div>
-             <div class="skill_progress">
-               <span style="width: 88%;"></span>
-             </div>
-             <div class="skill_per">60%</div>
-           </li>
-         </ul>
-       </div>
-       <div class="resume_item resume_social">
-         <div class="title">
-           <p class="bold">Social</p>
-         </div>
-         <ul>
-           <li>
-             <div class="icon">
-               <i class="fab fa-facebook-square"></i>
-             </div>
-             <div class="data">
-               <p class="semi-bold">Facebook</p>
-               <a>https://www.facebook.com/joshua.seet.7</a>
-             </div>
-           </li>
-           <li>
-             <div class="icon">
-               <i class="fab fa-envelope-square"></i>
-             </div>
-             <div class="data">
-               <p class="semi-bold">Email</p>
-               <a>joshu5797@gmail.com</a>
-             </div>
-           </li>
-           <li>
-             <div class="icon">
-               <i class="fab fa-telegram"></i>
-             </div>
-             <div class="data">
-               <p class="semi-bold">Telegram</p>
-               <a>https://t.me/joshuaseetss</a>
-             </div>
-           </li>
-           <!-- <li>
-             <div class="icon">
-               <i class="fab fa-linkedin"></i>
-             </div>
-             <div class="data">
-               <p class="semi-bold">Linkedin</p>
-               <p>Stephen@linkedin</p>
-             </div>
-           </li> -->
-         </ul>
-       </div>
-     </div>
-  </div>
-  <div class="resume_right">
-    <div class="resume_item resume_about">
-        <div class="title">
-           <p class="bold">About me</p>
-         </div>
-		<p>I am a Year 2 undergraduate majoring in Computer Science (with Honours) at the National University of Singapore. </p>
-		<p> I am an extremely motivated individual and my main objective is to gain new experiences. </p>
+<div class="navbar-wrapper">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><span>{{ site.title }}</span></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                {% for section in site.sections %}
+                    <li>
+                      <a class="page-scroll" href="#{{ section.id }}">
+                        <span>{{ section.name }}</span>
+                      </a>
+                    </li>
+                {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1 style="margin-top: 180px; color: black">> hello world</h1>
+                </div>
+                <div class="carousel-image wow zoomIn">
+                    <!-- <img src="static/img/landing/laptop.png" alt="laptop"/> -->
+                </div>
+            </div>
+            <!-- Set background for slide in css -->
+            <div class="header-back one"></div>
+        </div>
     </div>
-    <div class="resume_item resume_work">
-        <div class="title">
-           <p class="bold">Work Experience</p>
-         </div>
-        <ul>
-            <li>
-                <div class="date">Jan 2019 - April 2019</div> 
-                <div class="info">
-                     <p class="semi-bold"> Front-end Developer</p> 
-                  <p>Developed the front-end for applications using Angular / Ionic for One-Third technologies (part-time)</p>
-                </div>
-            </li>
-            <li>
-              <div class="date">May 2019 - July 2019</div>
-              <div class="info">
-                     <p class="semi-bold">Software Developer</p> 
-                  <p>Contributed to the development of the health mobile application Healthzilla at BetterLife Pte Ltd (full-time)</p>
-                </div>
-            </li>
-            <li>
-              <div class="date">August 2019 - Present</div>
-              <div class="info">
-                     <p class="semi-bold">Tech Lead at start-up Corri</p> 
-                  <p>Led a team of developers to develop a website for home service providers to advertise their services. </p>
-                </div>
-            </li>
-        </ul>
-    </div>
-    <div class="resume_item resume_education">
-      <div class="title">
-           <p class="bold">Education</p>
-         </div>
-      <ul>
-            <li>
-                <div class="date">2014 - 2015</div> 
-                <div class="info">
-                     <p class="semi-bold">St Andrew's Junior College</p> 
-                  <p>Attained 2 A's and 1 B passes at H2 Level</p>
-                </div>
-            </li>
-            <li>
-              <div class="date">2018 - Present</div>
-              <div class="info">
-                     <p class="semi-bold">National University of Singapore</p> 
-                  <p>Bachelor's in Computer Science (with Honours)</p>
-                </div>
-            </li>
-        </ul>
-    </div>
-    <div class="resume_item resume_hobby">
-      <div class="title">
-           <p class="bold">Hobby</p>
-         </div>
-       <ul>
-         <li><i class="fas fa-book"></i></li>
-         <li><i class="fas fa-gamepad"></i></li>
-         <li><i class="fas fa-music"></i></li>
-         <li><i class="fab fa-photography"></i></li>
-      </ul>
-    </div>
-  </div>
 </div>
 
-</body>
-</html>
+{% for section in site.sections %}
+  {% assign loopindex = forloop.index | modulo: 2 %}
+  <section id="{{ section.id }}" class="features {% if loopindex != 1 %} gray-section {% endif %} {{ section.css }}" style="margin-top: 0px;">
+    {% include sections/{{section.tpl}} %}
+  </section>
+{% endfor %}
