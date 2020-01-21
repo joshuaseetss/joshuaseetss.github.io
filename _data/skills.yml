@@ -4,7 +4,7 @@
 - name: Javascript
   percentage: 70
 
-- name: Angular / Ionic
+- name: Angular
   percentage: 75
 
 - name: HTML
@@ -15,9 +15,6 @@
 
 - name: Javascript
   percentage: 70
-
-- name: SQL
-  percentage: 65
 
 - name: NodeJS
   percentage: 60
