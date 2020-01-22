@@ -1,10 +1,12 @@
 - name: 'diaBeatThis'
   git: 'https://github.com/joshuaseetss/diaBeatThis'
+  url: 'https://github.com/joshuaseetss/diaBeatThis'
   img: 'static/img/projects/diabeatthis.jpg'
   desc: 'An application to aid people diagnosed with Diabetes to track their diet and progress (Orbital project)'
 
 - name: 'FinSec'
   git: 'https://github.com/AY1920S1-CS2103T-W12-1/main'
+  url: 'https://github.com/AY1920S1-CS2103T-W12-1/main'
   img: 'static/img/projects/finsec.png'
   desc: '
   An application that aids financial secretaries of communities to track their finances using a CLI application. 
