@@ -10,9 +10,6 @@
 - name: Web Dev
   percentage: 85
 
-- name: C
-  percentage: 75
-
 - name: SQL
   percentage: 70
 
