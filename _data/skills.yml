@@ -4,16 +4,16 @@
 - name: Javascript
   percentage: 70
 
-- name: Angular
+- name: Angular 
   percentage: 75
 
-- name: HTML
+- name: Web Dev
   percentage: 85
 
-- name: CSS
+- name: C
   percentage: 75
 
-- name: Javascript
+- name: SQL
   percentage: 70
 
 - name: NodeJS
@@ -24,3 +24,7 @@
 
 - name: React Native 
   percentage: 60
+
+- name: Python 
+  percentage: 70 
+
