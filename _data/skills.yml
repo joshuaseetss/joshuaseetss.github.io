@@ -16,9 +16,6 @@
 - name: NodeJS
   percentage: 60
 
-- name: AWS
-  percentage: 70
-
 - name: React Native 
   percentage: 60
 
