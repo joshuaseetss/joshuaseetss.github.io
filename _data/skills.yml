@@ -7,9 +7,6 @@
 - name: Angular 
   percentage: 75
 
-- name: Web Dev
-  percentage: 85
-
 - name: SQL
   percentage: 70
 
